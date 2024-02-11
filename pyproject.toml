@@ -1,0 +1,14 @@
+[project]
+name = "reproduce2"
+version = "0.1.0"
+description = "Reprodoce mypy #16903"
+authors = [
+    {name = "gamecss",email = "52902973+gamecss@users.noreply.github.com"},
+]
+dependencies = [
+    "mypy>=1.8.0",
+    "typing-extensions>=4.9.0",
+]
+requires-python = "==3.8.*"
+readme = "README.md"
+license = {text = "MIT"}
